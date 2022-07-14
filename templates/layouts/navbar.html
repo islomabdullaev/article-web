@@ -4,7 +4,7 @@
             <div class = "navigation-container">
                 <div class = "top-head">
                     <div class = "web-name">
-                        <h1><a class="header-logo" href="./index.html">RENESSANS</a></h1>
+                        <h1><a class="header-logo" href="{% url 'home' %}">RENESSANS</a></h1>
                     </div>
 
                     <div class = "ham-btn">
@@ -25,8 +25,8 @@
                 <div class = "nav-bar" id = "nav-bar">
                     <nav>
                         <ul>
-                            <li><a href = "./index.html">home</a></li>
-                            <li><a href = "./current.html">current affairs</a></li>
+                            <li><a href = "{% url 'home' %}">home</a></li>
+                            <li><a href = "{% url 'current-affairs' %}">current affairs</a></li>
                             <li><a href = "./archive.html">archive</a></li>
                             <li><a href = "./featured.html">featured</a></li>
                             <li><a href = "./broadcast.html">broadcast</a></li>
