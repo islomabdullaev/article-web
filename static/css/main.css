@@ -402,5 +402,6 @@ footer > p{
     border-bottom: 1.6px solid #808080;
 }
 
-
-
+.newsletter__button {
+    border-style: solid;
+}
